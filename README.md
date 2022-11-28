@@ -1,1 +1,22 @@
 # 3d-petanque
+- INFO:
+			- game concept : replication of the french game "Petanque"
+			- features (extra things added that were not mandatory) : implemented collisions (bonus section) and 3D-modeled environment
+			- note : lighting was not produced for the game in which the boules are modeled as spheres because it rendered the spheres spikey and irregular, however we do have an 				implementation of Lab7 lighting techniques perfectly functional for the cubical boules model. (! sphere.cpp and sphere.h from http://www.songho.ca/opengl/gl_sphere.html 			were used for rendering the spheres in game, but a manual wireframe implementation for better understanding the concept was produced as well beforehand)
+		
+		- CONTROLS AND DESIGN:
+			- Use W,S,R,F,UP and DOWN to maneuver the camera; the camera has the default position as the current's player PoV 
+			- Press B to spawn the boule
+			- Calibrate LEFT/RIGHT position using LEFT and RIGHT arrow keys - boule cannot get out of plane bounds
+			- Press P to launch the boule (throw length and speed is decided by how long you press P)
+			- Press O to reset the round
+			- Press N to start the next round after current round ends
+			- Press ESC to exit the game
+			- Throwing a boule over the outer edge of the plane results in computing the distance between it and the Jack as dist(Jack, ball spawn point)
+			- For each red/blue throw sequence, a winner is decided between the 2 boules by computing minimum distance to the Jack, and the winner brings its team 1 point
+			- Score is computed after each round - 3 rounds are played in total
+			- The team with most total points wins
+			- Collision with the Jack results in round reset
+			- Collision with another boule causes your boule to stop and the impacted boule to move forward, proportional to the power it has been hit with (it can trigger chain 				collisions with all other boules affected by the impact)
+			- Throw speed is computed as equal to sqrt(2*u*g*d)/m, where u(coefficient of friction) = 0.5 (metal on dirt), g(gravitational acceleration) = 9.81 m/s^2 and m(boule 			weight) = 2kg
+			- The distance between a boule and the Jack is computed using the mathematical formula d = sqrt(abs(x jack - x boule)^2 + abs(y jack - y boule)^2)
