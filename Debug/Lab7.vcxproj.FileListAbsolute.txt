@@ -1,0 +1,4 @@
+F:\Teaching\Sem1\ACG\Lab 7 - light with no textures\Lab 7 - OpenGL no textures\Debug\ACG_Lab7.exe
+F:\Teaching\Sem1\ACG\Lab 7 - light with no textures\Lab 7 - OpenGL no textures\Debug\ACG_Lab7.pdb
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\Lab 7 - OpenGL no textures\Debug\ACG_Lab7.exe
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Debug\ACG_Lab7.exe

@@ -1,0 +1,25 @@
+﻿          1 file(s) copied.
+          1 file(s) copied.
+  ball.cpp
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Ball\ball.cpp(21,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Ball\ball.cpp(22,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Ball\ball.cpp(62,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Ball\ball.cpp(161,13): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Ball\ball.cpp(166,13): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Ball\ball.cpp(218,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Ball\ball.cpp(223,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  camera.cpp
+  main.cpp
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\main.cpp(57,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\main.cpp(1079,78): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\main.cpp(1096,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\main.cpp(1191,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\main.cpp(1195,19): warning C4305: '+=': truncation from 'double' to 'float'
+  shader.cpp
+  Sphere.cpp
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Sphere\Sphere.cpp(231,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Sphere\Sphere.cpp(231,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Sphere\Sphere.cpp(321,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Sphere\Sphere.cpp(321,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  Generating Code...
+  Lab7.vcxproj -> C:\Users\stava\Desktop\university\an 3 sem 1\ACG\pentaque\Debug\ACG_Lab7.exe
